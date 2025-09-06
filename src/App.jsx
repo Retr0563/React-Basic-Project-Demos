@@ -1,10 +1,11 @@
 // import Counter from "./Components/Counter";
 // import Todo from "./Components/Todo";
 // import Meals from "./Components/Meals";
-
-import BackgroundToggle from "./Components/BackgroundToggle";
-
+// import BackgroundToggle from "./Components/BackgroundToggle";
 // import Calculator from "./Components/Calculator";
+// import HiddenSearchBar from "./Components/HiddenSearchBar";
+
+import Testimonials from "./Components/Testimonials";
 
 const App = () => {
   return (
@@ -13,7 +14,9 @@ const App = () => {
       {/* <Todo /> */}
       {/* <Meals /> */}
       {/* <Calculator /> */}
-      <BackgroundToggle />
+      {/* <BackgroundToggle /> */}
+      {/* <HiddenSearchBar /> */}
+      <Testimonials />
     </div>
   );
 };
