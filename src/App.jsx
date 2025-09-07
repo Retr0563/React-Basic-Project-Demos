@@ -24,7 +24,7 @@ const App = () => {
           <Accordion title={title} content={content} />
         ))}
       </div> */}
-      <Form />
+      {/* <Form /> */}
     </div>
   );
 };
