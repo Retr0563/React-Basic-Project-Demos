@@ -6,7 +6,8 @@ import Calculator from "./Components/Calculator";
 import HiddenSearchBar from "./Components/HiddenSearchBar";
 import Testimonials from "./Components/Testimonials";
 import Accordion from "./Components/Accordion";
-import { accordionData } from "./utils/content";
+// import { accordionData } from "./utils/content";
+import Form from "./Components/Form";
 
 const App = () => {
   return (
@@ -18,11 +19,12 @@ const App = () => {
       {/* <BackgroundToggle /> */}
       {/* <HiddenSearchBar /> */}
       {/* <Testimonials /> */}
-      <div className="accordion">
-        {accordionData.map(({ title, content }) => {
-          <Accordion title={title} content={content} />;
-        })}
-      </div>
+      {/* <div className="accordion">
+        {accordionData.map(({ title, content }) => (
+          <Accordion title={title} content={content} />
+        ))}
+      </div> */}
+      <Form />
     </div>
   );
 };
