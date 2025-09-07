@@ -55,7 +55,9 @@ const Form = () => {
   return (
     <>
       <div className="card">
-        <div className="card-image"></div>
+        <div className="card-image">
+          <h1>Login</h1>
+        </div>
         <form>
           <input
             type="text"
